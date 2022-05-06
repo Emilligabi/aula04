@@ -1,0 +1,47 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box
+}
+
+html, body {
+width: 100vw;
+height: 100vh;
+}
+
+body {
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+main {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem;
+  background: rgb(170, 23, 23);
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+  background: rgb(13, 206, 38);
+}
+
+.tramslate-x-positivo {
+  transform: translateX(3rem);
+}
+
+.tramslate-x-negativo {
+  transform: translateX(-2rem);
+}
+
+.tramslate-y-negativo {
+  transform: translateY(-2rem);
+}
+
+.tramslate-y-positivo {
+  transform: translateY(2rem);
+}
